@@ -16,7 +16,6 @@ export default {
     </span>
 
       <ul class="ingredientes-sua-lista">
-        <li v-for="ingrediente in ingredientes" class="ingrediente">
           {{ ingrediente }}
         </li>
       </ul>
