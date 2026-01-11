@@ -1,8 +1,10 @@
 <script lang="ts">
-import {obterCategorias} from "@/http/index";
+import {obterCategorias} from "@/http/index" ;
 import type ICategoria from "@/interfaces/ICategoria";
+import CardCategoria from "@/components/CardCategoria.vue";
 
 export default {
+  components: {CardCategoria},
   data() {
     return {
       categorias: [] as ICategoria[]
@@ -23,8 +25,8 @@ export default {
     </p>
 
     <ul class="categorias">
-      <li v-for="categoria in categorias" :key="categoria.nome" class="categoria">
-        {{ categoria.nome }}
+      <li v-for="categoria in categorias" :key="categoria.nome">
+        <CardCategoria :categoria="categoria"/>
       </li>
     </ul>
 

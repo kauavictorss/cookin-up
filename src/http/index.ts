@@ -1,3 +1,4 @@
+// @ts-ignore
 import type ICategoria from "@/interfaces/ICategoria";
 
 export async function obterCategorias() {
