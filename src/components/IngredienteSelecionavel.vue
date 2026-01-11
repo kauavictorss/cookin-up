@@ -2,9 +2,9 @@
 import Tag from './Tag.vue';
 
 export default {
-  components: { Tag },
+  components: {Tag},
   props: {
-    ingrediente: { type: String, required: true }
+    ingrediente: {type: String, required: true}
   },
   data() {
     return {
@@ -32,7 +32,7 @@ export default {
       @click="aoClicar"
       :aria-pressed="selecionado"
   >
-    <Tag :texto="ingrediente" :ativa="selecionado" />
+    <Tag :texto="ingrediente" :ativa="selecionado"/>
   </button>
 </template>
 

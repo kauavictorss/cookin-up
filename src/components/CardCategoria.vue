@@ -39,7 +39,7 @@ export default {
   padding: 1rem;
   border-radius: 1rem;
   background: var(--branco, #FFF);
-  box-shadow: 4px 4px 10px 0px rgba(68, 68, 68, 0.05);
+  box-shadow: 4px 4px 10px 0 rgba(68, 68, 68, 0.05);
   height: 100%;
 
   display: flex;

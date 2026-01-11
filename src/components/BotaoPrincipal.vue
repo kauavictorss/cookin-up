@@ -1,7 +1,7 @@
 <script lang="ts">
 export default {
   props: {
-    texto: { type: String, required: true },
+    texto: {type: String, required: true},
   }
 }
 </script>
@@ -21,7 +21,7 @@ export default {
   font-weight: 700;
   color: var(--creme, #FFFAF3);
   background: var(--coral, #F0633C);
-  box-shadow: 4px 4px 15px 0px rgba(255, 115, 76, 0.25);
+  box-shadow: 4px 4px 15px 0 rgba(255, 115, 76, 0.25);
   cursor: pointer;
   transition: 0.2s;
 
