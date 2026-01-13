@@ -1,5 +1,3 @@
-<script setup lang="ts">
-</script>
 <template>
   <header class="banner">
     <div class="apresentacao">
